@@ -69,3 +69,11 @@ input[type=button].big  {
 input[type=button].big:active {
     background-color: #5177bf;
 }
+
+.white-link {
+    color: white;
+}
+
+.white-link:hover {
+    color: white;
+}

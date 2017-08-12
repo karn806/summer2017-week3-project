@@ -42,7 +42,10 @@ function Credit() {
   }
   return (
     <div style={styles.container}>
-      See the Source on github
+      See the Source on github | <a className="white-link"
+         href="https://github.com/MUIC-CS/summer2017-week3-project">
+        https://github.com/MUIC-CS/summer2017-week3-project
+      </a>
     </div>
   )
 }
