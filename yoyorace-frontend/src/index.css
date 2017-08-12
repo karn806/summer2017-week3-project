@@ -16,12 +16,21 @@ body {
 
 .flex-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .flex-vertical {
     display: flex;
     flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.flex-wrap div {
+    margin-top: 10px;
 }
 
 .space-around {
@@ -62,7 +71,7 @@ header {
 input[type=button].big  {
     border-radius: 10px;
     background-color: cornflowerblue;
-    font-size: 40px;
+    font-size: 4vw;
     color: white;
 }
 

@@ -80,7 +80,7 @@ export default class YoyoRace extends Component {
         <Card>
           <div className="flex-vertical">
             <h1>Yoyo Race</h1>
-            <div className="flex-center space-around">
+            <div className="flex-center space-around flex-wrap">
               <YoyoProfile
                 name="Ply"
                 count={ply}

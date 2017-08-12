@@ -3,7 +3,7 @@ import axios from 'axios'
 import './index.css'
 
 function QuestionBox({ question, onQuestionChange }) {
-  const style = { fontSize: 40 }
+  const style = { fontSize: '4vw' }
   return (
     <input
       type="text"
