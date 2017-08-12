@@ -40,11 +40,10 @@ function TotalYoyo({ count }) {
 
 function CenterPage({ children }) {
   return (
-    <div className="flex-vertical full-height space-around">
-      <div className="flex-center">
-        {children}
-      </div>
-    </div>)
+    <div className="flex-center">
+      {children}
+    </div>
+  )
 }
 
 function Card({ children }) {
