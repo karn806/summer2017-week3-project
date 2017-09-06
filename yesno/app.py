@@ -16,6 +16,13 @@ def index():
     })
 
 
+@app.route('/secret')
+def secret():
+    return jsonify(
+        {"msg": 'helloooooooooooooooooooo'}
+    )
+
+
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
